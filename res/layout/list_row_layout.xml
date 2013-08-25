@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright [2013] [Nazmul Idris]
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!-- used the IDEA UI builder to generate this ... it is the only way to go! -->
+<!-- more info on relativelayout layout constraints - http://goo.gl/nz3XC -->
+
+<!-- put some padding around this entire layout -->
+<!-- constrain the height of the layout manager to the height of the image (@dimen/listRowIconSize) -->
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/listRowIconSize"
+        android:padding="@dimen/listRowPadding"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <!-- align the top of this image with the top of the parent -->
+    <!-- constrain the image height + width to the @dimen/listRowIconSize (which is also the list row height) -->
+    <!-- put some padding to the right of this image -->
+    <ImageView
+            android:layout_width="@dimen/listRowIconSize"
+            android:layout_height="@dimen/listRowIconSize"
+            android:id="@+id/ttf_list_row_image"
+            android:src="@drawable/test_app_icon"
+            android:layout_alignParentTop="true"
+            android:contentDescription="Icon describing the row's content"
+            android:paddingRight="@dimen/listRowPadding"/>
+
+    <!-- align the top of this label with the top of the parent -->
+    <!-- align this label to the right of the image -->
+    <!-- make this label only 1 line tall, and put ellipsis at the end for long strings -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/textSizeLarge"
+            android:id="@+id/ttf_list_row_name"
+            android:layout_toRightOf="@+id/ttf_list_row_image"
+            android:layout_alignParentTop="true"
+            android:ellipsize="end"
+            android:lines="1"
+            />
+
+    <!-- align the bottom of this label with the bottom of the parent -->
+    <!-- align this label to the right of the image -->
+    <!-- make this label only 1 line tall, and put ellipsis at the end for long strings -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="@dimen/textSizeSmall"
+            android:id="@+id/ttf_list_row_position"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_toRightOf="@+id/ttf_list_row_image"
+            android:layout_alignParentBottom="true"
+            />
+
+</RelativeLayout>

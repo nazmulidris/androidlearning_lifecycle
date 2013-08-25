@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidlearning_lifecycle.iml" filepath="$PROJECT_DIR$/androidlearning_lifecycle.iml" />
+      <module fileurl="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib1.iml" filepath="$USER_HOME$/dev-tools/android-sdk-macosx/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib1.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="android-support-v13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/android-support-v13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/ics" />
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/ics-mr1" />
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/java" />
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/ics" />
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/ics-mr1" />
+      <root url="file://$USER_HOME$/dev-tools/android-sdk-macosx/extras/android/support/v13/src/java" />
+    </SOURCES>
+  </library>
+</component>

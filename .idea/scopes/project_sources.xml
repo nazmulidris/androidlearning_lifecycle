@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="project sources" pattern="file[androidlearning_lifecycle]:src//*" />
+</component>
